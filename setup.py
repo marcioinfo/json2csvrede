@@ -6,7 +6,7 @@ with open('README.md', 'r') as readme:
     README_TEXT = readme.read()
 
 setuptools.setup(
-    name='json2csv',
+    name='Parse-json2csv',
     version='1.0',
     description='Easy-way to parser nested json <--> csv file.',
     long_description = README_TEXT,
