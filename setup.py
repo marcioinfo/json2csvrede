@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     author='Elison Márcio Correa',
     author_email='marcioinfo.correa@gmail.com',
-    url='https://github.com/marcioinfo/PositionalFilesReader',
+    url='https://github.com/marcioinfo/jsontocsv',
     install_requires=['six'],
     license='BSD',
     keywords='JSON To CSV',
