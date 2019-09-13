@@ -7,7 +7,7 @@ with open('README.md', 'r') as readme:
 
 setuptools.setup(
     name='json2csvrede',
-    version='1.0',
+    version='1.2',
     description='Easy-way to parser nested json <--> csv file.',
     long_description = README_TEXT,
     long_description_content_type='text/markdown',
@@ -17,6 +17,6 @@ setuptools.setup(
     install_requires=['six'],
     license='BSD',
     keywords='JSON To CSV',
-    test_suite="jsontocsv.tests",
+    test_suite="jsonTocsv.tests",
     classifiers=[],
 )
